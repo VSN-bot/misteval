@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MIST Web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <img src="1.png" alt="MIST Logo" class="logo" />
+    <div class="nav-buttons">
+      <button onclick="showPage('home')">Home</button>
+      <button onclick="showPage('glazing')">Glazing MIST</button>
+      <button onclick="showPage('about')">About Us</button>
+    </div>
+  </div>
+
+  <!-- Pages -->
+  <div id="home" class="page active">
+    <div class="center-box">
+      <button onclick="showAlert()">press me pls</button>
+      <p>clicking on this button shows your name, registration number and phone number in a JS alert</p>
+    </div>
+  </div>
+
+  <div id="glazing" class="page">
+    <div class="center-box">
+      <img src="2.png" alt="Glazing MIST" class="glazing-img"/>
+      <p>USE GPT AND GLAZE MIST FOR ATLEAST 2 PARAGRAPHS</p>
+    </div>
+  </div>
+
+  <div id="about" class="page">
+    <div class="images-row">
+      <div class="image-card">
+        <img src="3.png" alt="Image 1" />
+        <p>Image description</p>
+      </div>
+      <div class="image-card">
+        <img src="3.png" alt="Image 2" />
+        <p>Image description</p>
+      </div>
+      <div class="image-card">
+        <img src="3.png" alt="Image 3" />
+        <p>Image description</p>
+      </div>
+    </div>
+
+    <div class="toggle-section">
+      <button class="triangle-btn" onclick="toggleText()">click me</button>
+      <p id="toggle-text" class="hidden">YOU CLICKED THE BUTTON YAYYY!!!</p>
+    </div>
+    <p class="instruction">(on clicking the button, the text on the right appears and on clicking the button again, it disappears)</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
