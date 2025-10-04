@@ -22,9 +22,9 @@ c.  I found that Zardus’s `~/.bashrc` was world-readable and contained the lin
 By reading it and running `flag_getter --key $(awk -F= '/FLAG_GETTER_API_KEY/{print $2}' /home/zardus/.bashrc)`, I retrieved the flag `pwn.college{HACKED}`.
 
 <img width="1490" height="334" alt="Screenshot 2025-10-04 231747" src="https://github.com/user-attachments/assets/67f14db4-a816-42c9-ab70-fb3b01541624" />
-2.   
-1.<img width="1586" height="786" alt="image" src="https://github.com/user-attachments/assets/c59d6027-dacf-4b81-ae12-b148648a410b" />
-2.
+2.1
+<img width="1586" height="786" alt="image" src="https://github.com/user-attachments/assets/c59d6027-dacf-4b81-ae12-b148648a410b" />
+
 
 
 
